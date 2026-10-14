@@ -8,6 +8,12 @@ dependencies = [
     "mcp[cli]>=2.0.0",
     "httpx>=0.27.0",
 ]
+authors = [
+    {name = "Stephen Mwangi", email = "devstephenke-sys"}
+]
+repository = "https://github.com/devstephenke-sys/kenya-mcp"
+license = {text = "MIT"}
+keywords = ["mcp", "model-context-protocol", "kenya", "government", "data", "api"]
 
 [build-system]
 requires = ["hatchling"]
